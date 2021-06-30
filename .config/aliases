@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# general
+alias rm="rm -i"
+alias cp="cp -iv"
+alias ls="ls --color=auto -h"
+alias less="less -S"
+alias grep="grep --color=auto"
+alias pacman="pacman --color auto"
+alias ranger="ranger --choosedir=$HOME/.config/rangerdir; LASTDIR='cat $HOME/.config/rangerdir'; cd $LASTDIR"
+alias say='echo "$1" | espeak -s 120 2>/dev/null'
+alias r="ranger"
+alias du="du -h"
+alias df="df -h"
+alias transfer="android-file-transfer"
+alias 42="cd /home/azeddine/development/42cursus"
+alias vim="nvim"
+alias v="nvim"
+alias k="kubectl"
+alias m="minikube"
+alias watch="watch -n 1"
+alias vim="nvim"
+
+# config dirs
+alias dwmdir="cd /home/azeddine/.local/share/dwm"
+
+# docker
+CONTAINER=$(cat ~/.container | grep container | cut -f 2 -d '=')
+alias stop_container='docker container stop $(docker ps -q -f ancestor=$CONTAINER)'
+alias stop_all_containers='docker container stop $(docker ps -q)'
+
+# git
+alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"

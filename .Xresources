@@ -1,0 +1,17 @@
+! xft configuration
+Xft.dpi:       96
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.autohint:  false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+*background:   #222D31
+*foreground:   #d8d8d8
+*fading:       8
+*fadeColor:    black
+
+! rofi configuratinon
+rofi.theme:    purple
+!solarized-darker

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# essential
+export TERM=alacritty
+export LANG=en_US.UTF-8
+export EDITOR=nvim
+export PATH="/home/azeddine/scripts/bin:$PATH"
+export BROWSER=brave
+export MAIL=azeddine.hmd@gmail.com
+export MYLOG=$HOME/.config/mylog
+
+# for android studio
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+# xdg base directory
+export XDG_CONFIG_HOME="$HOME"/.config
+export XDG_CACHE_HOME="$HOME"/.cache
+export XDG_DATA_HOME="$HOME"/.local/share
+
+# cleanning home directory
+export LESSHISTFILE=-
+
+# unknown
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+# golang
+export GOPATH=$HOME/development/go/golib
+
+# minilibx
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig

@@ -1,0 +1,6 @@
+configuration {
+	modi: "run,calc";
+	theme: "purple";
+	font: "hack 14";
+	terminal: "alacritty";
+}
