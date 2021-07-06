@@ -8,6 +8,7 @@ source $ZSH/oh-my-zsh.sh
 [ -f "$HOME/.config/aliases" ] && source "$HOME/.config/aliases"
 
 # bindkeys
+# testing comment
 bindkey -s '^o' 'ranger\n'
 
 [ -z "$TMUX" ] && tmux
