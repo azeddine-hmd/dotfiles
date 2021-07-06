@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # essential
-export TERM=alacritty
+#export TERM=alacritty
 export LANG=en_US.UTF-8
 export EDITOR=nvim
-export PATH="/home/azeddine/scripts/bin:$PATH"
+export PATH="/home/azeddine/.local/bin:$PATH"
 export BROWSER=brave
 export MAIL=azeddine.hmd@gmail.com
 export MYLOG=$HOME/.config/mylog

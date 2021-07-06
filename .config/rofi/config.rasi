@@ -1,6 +1,7 @@
 configuration {
 	modi: "run,calc";
-	theme: "purple";
+	theme: "android_notification";
 	font: "hack 14";
 	terminal: "alacritty";
 }
+@import "/usr/share/rofi/themes/android_notification.rasi"
