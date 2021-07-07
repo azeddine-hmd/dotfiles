@@ -173,11 +173,6 @@ augroup filetype_vim
 augroup END
 " }}}
 
-" my plugins
-source ~/.vim/myplugins/stdheader.vim
-source ~/.vim/myplugins/grep-operator.vim
-source ~/.vim/myplugins/function-navigation.vim
-
 " netrw
 nnoremap <Leader>e :15Vexplore<cr>
 let g:netrw_banner = 0
