@@ -176,10 +176,11 @@ augroup END
 " netrw
 nnoremap <Leader>e :15Vexplore<cr>
 let g:netrw_banner = 0
-let g:netrw_liststyle = 3
+let g:netrw_liststyle = 0
 let g:netrw_browse_split = 0
 let g:netrw_winsize = 0
 let g:netrw_altv = 0
+let g:netrw_localrmdir='rm -r'
 
 " ctags
 nnoremap <silent> <F9> :! ctags -R .<cr>
@@ -191,3 +192,6 @@ nnoremap <Leader>t	:Tags<cr>
 
 " c comment follows norminette rules
 nnoremap <leader>cc :read! cat ~/.vim/snippets/c_norm_comment<cr>kla<space>
+
+" plugins runtimepath
+set rtp+=~/development/neovim/my-first-plugin/

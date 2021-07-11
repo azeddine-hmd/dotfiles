@@ -6,7 +6,7 @@
   <property name="close-after-select" type="bool" value="false"/>
   <property name="window-width" type="int" value="650"/>
   <property name="window-height" type="int" value="470"/>
-  <property name="window-x" type="int" value="553"/>
-  <property name="window-y" type="int" value="391"/>
+  <property name="window-x" type="int" value="601"/>
+  <property name="window-y" type="int" value="300"/>
   <property name="exclude-paths" type="string" value="/dev;~/.cache;~/.gvfs;"/>
 </channel>

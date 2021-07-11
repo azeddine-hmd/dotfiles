@@ -51,6 +51,8 @@
         <value type="string" value="clipman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="uget-gtk"/>
+        <value type="string" value="deluge"/>
         <value type="string" value="thunar"/>
         <value type="string" value="xfce terminal"/>
         <value type="string" value="hexchat"/>
@@ -78,7 +80,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="audacious;chromium.instance1279;chromium.instance2631;chromium.instance2708;chromium.instance4281;chromium.instance5919;chromium.instance9720;firefox.instance1468;spotify;vlc"/>
+      <property name="mpris-players" type="string" value="audacious;chromium.instance1279;chromium.instance1345;chromium.instance1377;chromium.instance1566;chromium.instance1573;chromium.instance1673;chromium.instance1786;chromium.instance2275;chromium.instance2631;chromium.instance2708;chromium.instance3831;chromium.instance4281;chromium.instance5623;chromium.instance5919;chromium.instance9720;firefox.instance1468;spotify;vlc"/>
     </property>
     <property name="plugin-8" type="string" value="whiskermenu"/>
     <property name="plugin-5" type="string" value="clock">
