@@ -21,5 +21,5 @@ alias watch="watch -n 1"
 
 # dotfiles
 alias dfs="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
-alias dfsstatus="dfs status -uno"
-alias dfspush="dfs commit -am 'fastpush' && dfs push"
+alias dfs_status="dfs status -uno"
+alias dfs_push="dfs commit -am 'fastpush' && dfs push"
