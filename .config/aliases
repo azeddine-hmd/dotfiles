@@ -19,6 +19,7 @@ alias watch="watch -n 1"
 # config dirs
 #alias dwmdir="cd /home/azeddine/.local/share/dwm"
 
-# git
+# dotfiles
 alias dfs="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias dfsstatus="dfs status -uno"
+alias dfspush="dfs commit -am 'fastpush' && dfs push"

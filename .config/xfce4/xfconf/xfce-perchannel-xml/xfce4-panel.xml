@@ -80,7 +80,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="audacious;chromium.instance1279;chromium.instance1345;chromium.instance1377;chromium.instance1566;chromium.instance1573;chromium.instance1673;chromium.instance1786;chromium.instance2275;chromium.instance2631;chromium.instance2708;chromium.instance3831;chromium.instance4281;chromium.instance5623;chromium.instance5919;chromium.instance9720;firefox.instance1468;spotify;vlc"/>
+      <property name="mpris-players" type="string" value="audacious;chromium.instance1279;chromium.instance1345;chromium.instance1377;chromium.instance1383;chromium.instance13892;chromium.instance1522;chromium.instance1566;chromium.instance1573;chromium.instance1673;chromium.instance1786;chromium.instance19135;chromium.instance2275;chromium.instance23425;chromium.instance2631;chromium.instance2708;chromium.instance3051;chromium.instance3206;chromium.instance3831;chromium.instance40678;chromium.instance4281;chromium.instance5623;chromium.instance56701;chromium.instance5919;chromium.instance92422;chromium.instance9720;firefox.instance1468;spotify;vlc"/>
     </property>
     <property name="plugin-8" type="string" value="whiskermenu"/>
     <property name="plugin-5" type="string" value="clock">
@@ -94,6 +94,7 @@
     </property>
     <property name="plugin-10" type="string" value="pager">
       <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>

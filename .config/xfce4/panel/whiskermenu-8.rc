@@ -1,5 +1,5 @@
 favorites=
-recent=uget-gtk.desktop,brave-browser.desktop,xfce4-taskmanager.desktop,gparted.desktop,xfce4-notifyd-config.desktop,xfce-settings-manager.desktop,spotify.desktop,org.manjaro.pamac.manager.desktop,xfce4-accessibility-settings.desktop,xfce-keyboard-settings.desktop
+recent=xfce-wm-settings.desktop,xfce-keyboard-settings.desktop,discord.desktop,pavucontrol.desktop,brave-browser.desktop,Alacritty.desktop,spotify.desktop,nvim.desktop,xfce-settings-manager.desktop,uget-gtk.desktop
 button-icon=/usr/share/icons/whiskermenu-manjaro.svg
 button-single-row=false
 show-button-title=false
@@ -21,8 +21,8 @@ position-commands-alternate=false
 position-categories-alternate=false
 stay-on-focus-out=false
 confirm-session-command=true
-menu-width=419
-menu-height=704
+menu-width=434
+menu-height=697
 menu-opacity=100
 command-settings=xfce4-settings-manager
 show-command-settings=true

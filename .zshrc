@@ -11,4 +11,4 @@ source $ZSH/oh-my-zsh.sh
 # testing comment
 bindkey -s '^o' 'ranger\n'
 
-[ -z "$TMUX" ] && tmux
+[ -z "$ANDROID_SET" ] && [ -z "$TMUX" ] && tmux
